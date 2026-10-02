@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TechRent.API/TechRent.API.csproj" />
+  <Project Path="TechRent.WinForms/TechRent.WinForms.csproj" />
+</Solution>

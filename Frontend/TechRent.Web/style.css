@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button:hover { background-color: #218838; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card h3 { margin-top: 0; }
+.status { font-weight: bold; color: #0056b3; }
